@@ -1,0 +1,19 @@
+GET http://localhost:4000/aletheia
+
+###
+POST http://localhost:4000/aletheia
+Content-Type: application/json
+
+{
+  "content": "I need to be myself qwooo" 
+}
+
+###
+PUT http://localhost:4000/aletheia/2
+Content-Type: application/json
+
+{
+  "content": "I need to be myself wwwooo" 
+}
+
+DELETE http://localhost:4000/aletheia/2
